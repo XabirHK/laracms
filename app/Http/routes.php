@@ -18,3 +18,5 @@ Route::get('/', function () {
 Route::auth();
 
 Route::get('/admin', 'HomeController@index');
+
+Route::get('/admin/addproduct', 'ProductController@index');
