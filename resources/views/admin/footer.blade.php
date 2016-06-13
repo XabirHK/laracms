@@ -2,13 +2,13 @@
   <footer class="main-footer">
     <!-- To the right -->
     <div class="pull-right hidden-xs">
-      Anything you want
+       Pdoduct developed by <strong><a href="#">XABIR</a></strong>
     </div>
     <!-- Default to the left -->
-    <strong>Copyright &copy; 2015 <a href="#">Company</a>.</strong> All rights reserved.
+    <strong>Copyright &copy; {{date('Y')}} <a href="#">{{@$companyName}}</a>.</strong> All rights reserved.
   </footer>
 
-  <!-- Control Sidebar -->
+  <?php /* ?><!-- Control Sidebar -->
   <aside class="control-sidebar control-sidebar-dark">
     <!-- Create the tabs -->
     <ul class="nav nav-tabs nav-justified control-sidebar-tabs">
@@ -81,7 +81,7 @@
   <!-- /.control-sidebar -->
   <!-- Add the sidebar's background. This div must be placed
        immediately after the control sidebar -->
-  <div class="control-sidebar-bg"></div>
+  <div class="control-sidebar-bg"></div><?php */ ?>
 </div>
 <!-- ./wrapper -->
 
